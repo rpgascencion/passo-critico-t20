@@ -1,0 +1,37 @@
+{
+  "id": "passo-critico-t20",
+  "title": "Passo no Crítico (T20)",
+  "description": "Para armas configuradas (ex: Espada de Obsidiana), aumenta o dado de dano em um ou mais passos ANTES da multiplicação de crítico do sistema Tormenta20. 100% automático: dispara sozinho toda vez que a arma é usada e o ataque acerta crítico.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "ASCUNCAO"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "tormenta20",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": [
+    "script.mjs"
+  ],
+  "url": "https://github.com/rpgascencion/passo-critico-t20",
+  "manifest": "https://raw.githubusercontent.com/rpgascencion/passo-critico-t20/main/module.json",
+  "download": "https://github.com/rpgascencion/passo-critico-t20/releases/latest/download/passo-critico-t20.zip"
+}
